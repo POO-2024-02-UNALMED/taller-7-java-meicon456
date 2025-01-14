@@ -50,7 +50,7 @@ public class Tesis extends Escrito {
         this.referencias = referencias;
     }
 
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
