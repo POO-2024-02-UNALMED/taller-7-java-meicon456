@@ -33,7 +33,7 @@ public class Alfabeto extends Pictograma {
 
     @Override
     public String toString() {
-        return getOrigen() + "\n" + String.join(", ", letras);
+        return "Origen: " + getOrigen() + "\n" + "Letras: " + String.join(", ", letras) + "\n" + "Interpretacion: " + interpretacion;
     }
 
     public int cantidadLetras() {
