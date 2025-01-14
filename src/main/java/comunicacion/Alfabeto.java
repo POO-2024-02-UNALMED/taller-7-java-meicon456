@@ -1,26 +1,29 @@
 package comunicacion;
 
 import java.util.List;
+import java.util.Arrays;
 
 public class Alfabeto extends Pictograma {
-    private List<String> letras;
+    private static List<String> letras = Arrays.asList(
+        "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+    );
     private String interpretacion;
 
     public Alfabeto(String origen, List<String> letras, String interpretacion) {
         super(origen);
-        this.letras = letras;
+        this.letras = letras; 
         this.interpretacion = interpretacion;
     }
 
-    public List<String> getLetras() {
+    public static List<String> getLetras() {
         return letras;
     }
 
-    public void setLetras(List<String> letras) {
-        this.letras = letras;
+    public static void setLetras(List<String> letras) {
+        Alfabeto.letras = letras;
     }
 
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
