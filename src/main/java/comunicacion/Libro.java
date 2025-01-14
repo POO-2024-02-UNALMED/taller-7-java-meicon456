@@ -55,4 +55,9 @@ public class Libro extends Escrito {
     public String toString() {
         return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n" + editorial + "\n" + edicion;
     }
+
+    @Override
+    public String interpretacion() {
+        return interpretacion;
+    }
 }
