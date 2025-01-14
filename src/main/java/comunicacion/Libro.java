@@ -1,6 +1,5 @@
 package comunicacion;
 
-
 public class Libro extends Escrito {
     private String co_autor;
     private String editorial;
@@ -39,7 +38,7 @@ public class Libro extends Escrito {
         this.edicion = edicion;
     }
 
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
