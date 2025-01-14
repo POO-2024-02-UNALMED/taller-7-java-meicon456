@@ -2,7 +2,7 @@ package comunicacion;
 
 import java.util.List;
 
-Public class Tesis extends Escrito {
+public class Tesis extends Escrito {
     private String idea;
     private List<String> argumentos;
     private String conclusion;
