@@ -1,6 +1,5 @@
 package comunicacion;
 
-
 public class Fabula extends Escrito {
     private String ensenanzas;
     private String interpretacion;
@@ -35,8 +34,5 @@ public class Fabula extends Escrito {
     @Override
     public String toString() {
         return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + ensenanzas;
-    }
-    public String interpretacion() {
-        return interpretacion;
     }
 }
