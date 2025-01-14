@@ -19,7 +19,7 @@ public class Fabula extends Escrito {
         this.ensenanzas = ensenanzas;
     }
 
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
@@ -35,5 +35,8 @@ public class Fabula extends Escrito {
     @Override
     public String toString() {
         return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + ensenanzas;
+    }
+    public String interpretacion() {
+        return interpretacion;
     }
 }
