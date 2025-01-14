@@ -18,14 +18,17 @@ public class Alfabeto extends Pictograma {
         this.letras = letras;
     }
 
-    
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
+    public void setInterpretacion(String interpretacion) {
+        this.interpretacion = interpretacion;
+    }
+
     @Override
-    public int palabrasTotales(int palabrasPagina) {
-        return letras.length * palabrasPagina;
+    public String interpretacion() {
+        return interpretacion;
     }
 
     @Override
