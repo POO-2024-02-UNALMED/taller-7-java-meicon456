@@ -28,7 +28,7 @@ public class Periodico extends Escrito {
         this.primicia = primicia;
     }
 
-    public String interpretacion() {
+    public String getInterpretacion() {
         return interpretacion;
     }
 
