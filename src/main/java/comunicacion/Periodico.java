@@ -45,4 +45,9 @@ public class Periodico extends Escrito {
     public String toString() {
         return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia;
     }
+
+    @Override
+    public String interpretacion() {
+        return interpretacion;
+    }
 }
