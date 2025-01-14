@@ -1,7 +1,7 @@
 package comunicacion;
 
 
-Public class Fabula extends Escrito {
+public class Fabula extends Escrito {
     private String ensenanzas;
     private String interpretacion;
 
